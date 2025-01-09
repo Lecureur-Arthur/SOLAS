@@ -1939,8 +1939,8 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4284835173
-  m_Size: 5
+    rgba: 4281348147
+  m_Size: 3
 --- !u!1001 &2119715836
 PrefabInstance:
   m_ObjectHideFlags: 0
