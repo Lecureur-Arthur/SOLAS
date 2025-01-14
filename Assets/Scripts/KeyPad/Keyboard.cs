@@ -1,72 +1,78 @@
 using UnityEngine;
 using TMPro;
-using System;
+using UnityEngine.SceneManagement;
 
 public class Keyboard : MonoBehaviour
 {
     public TMP_InputField inputField;
-    public AudioClip successClip;
-    public AudioClip failureClip;
-    public AudioSource audioSource;
-    public string correctCode;
-    public GameObject wallToDisable;
-    public GameObject wallToEnable;
-    public GameObject[] triggerToDisable;
-    public GameObject triggerToEnable;
 
-    private int maxCodeLenght = 4;
-    private bool hasTriggered = false;
-
-    public void InsertChar(String c)
+    public enum Scenes
     {
-        if (!hasTriggered)
-        {
-            if (inputField.text.Length < maxCodeLenght) // Limite à 4 caractères
-            {
-                inputField.text += c;
-            }
-        }
+        Asteroide,
+        Mercure,
+        Venus,
+        Terre,
+        Lune,
+        Mars,
+        Jupiter,
+        Saturne,
+        Uranus,
+        Neptune
     }
 
-    public void DeleteChar()
-    {
-        if (!hasTriggered)
+    public Scenes SceneToLoad;
+
+    public void InsertChar(string c)
+    {        
+        switch (c)
         {
-            if (inputField.text.Length > 0)
-            {
-                inputField.text = inputField.text.Substring(0, inputField.text.Length - 1);
-            }
+            case "0":
+                inputField.text = "Ceinture d'astéroïde";
+                SceneToLoad = Scenes.Asteroide;
+                break;
+            case "1":
+                inputField.text = "Mercure";
+                SceneToLoad = Scenes.Mercure;
+                break;
+            case "2":
+                inputField.text = "Vénus";
+                SceneToLoad = Scenes.Venus;
+                break;
+            case "3":
+                inputField.text = "Terre";
+                SceneToLoad = Scenes.Terre;
+                break;
+            case "4":
+                inputField.text = "Lune";
+                SceneToLoad = Scenes.Lune;
+                break;
+            case "5":
+                inputField.text = "Mars";
+                SceneToLoad = Scenes.Mars;
+                break;
+            case "6":
+                inputField.text = "Jupiter";
+                SceneToLoad = Scenes.Jupiter;
+                break;
+            case "7":
+                inputField.text = "Saturne";
+                SceneToLoad = Scenes.Saturne;
+                break;
+            case "8":
+                inputField.text = "Uranus";
+                SceneToLoad = Scenes.Uranus;
+                break;
+            case "9":
+                inputField.text = "Neptune";
+                SceneToLoad = Scenes.Neptune;
+                break;
         }
     }
 
     public void EnterCode()
     {
-        if (!hasTriggered)
-        {
-            if (inputField.text == correctCode)
-            {                           
-                hasTriggered = true;
-
-                for (int i = 0; i < triggerToDisable.Length; i++)
-                {
-                    triggerToDisable[i].SetActive(false);
-                }
-                triggerToEnable.SetActive(true);
-
-                // Code correct, jouer le son de reussite
-                audioSource.PlayOneShot(successClip);
-
-                // Désactiver un mur et activer l'autre
-                wallToDisable.SetActive(false);
-                wallToEnable.SetActive(true);
-            }
-            else
-            {
-                // Code incorrect, jouer le son d'échec et réinitialiser le clavier
-                audioSource.PlayOneShot(failureClip);
-                ResetKeypad();
-            }               
-        }
+        //Debug.Log("Button press and try to Load scene name : " + SceneToLoad.ToString());
+        SceneManager.LoadScene(SceneToLoad.ToString());
     }
 
     public void ResetKeypad()

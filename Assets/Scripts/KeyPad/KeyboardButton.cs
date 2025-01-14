@@ -83,28 +83,6 @@ public class KeyboardButton : MonoBehaviour
                 Debug.LogError("ButtonVR non trouvé dans les enfants de " + gameObject.name);
             }
         }
-        else if (buttonText.text == "Del")
-        {
-            // Ajouter un listener pour le bouton "Del" (delete)
-            ButtonVR buttonVR = GetComponentInChildren<ButtonVR>();
-            if (buttonVR != null)
-            {
-                if (buttonVR.onRelease == null)
-                {
-                    buttonVR.onRelease = new UnityEvent();
-                }
-
-                // Ajouter un listener pour supprimer uin caractere lorsque "Del" est pressé
-                buttonVR.onRelease.AddListener(delegate
-                {
-                    keyboard.DeleteChar();
-                });
-            }
-            else
-            {
-                Debug.LogError("ButtonVR non trouvé dans les enfants de " + gameObject.name);
-            }
-        }
     }
 
     // Méthode pour assigner le nom de l'objet au texte du TextMeshPro
