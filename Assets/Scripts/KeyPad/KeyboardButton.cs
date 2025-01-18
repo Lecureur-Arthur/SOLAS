@@ -60,7 +60,7 @@ public class KeyboardButton : MonoBehaviour
                 Debug.LogError("ButtonVR non trouvé dans les enfants de " + gameObject.name);
             }
         }
-        else if (buttonText.text == "Enter")
+        else if (buttonText.text == "Démarrage des moteurs")
         {
             // Ajouter un listener pour le bouton "Enter"
             ButtonVR buttonVR = GetComponentInChildren<ButtonVR>();
