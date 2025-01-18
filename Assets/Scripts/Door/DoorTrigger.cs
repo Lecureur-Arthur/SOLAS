@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour
 {
+    public AudioClip OpenDoor;
+    public AudioClip CloseDoor;
 
-    private AudioSource audio;
+    private AudioSource audioSource;
     private Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponentInParent<Animator>();
-        audio = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
         Debug.Log("Start DoorTrigger");
     }
 
@@ -21,6 +23,7 @@ public class DoorTrigger : MonoBehaviour
         if(other.CompareTag("Player")) {
             Debug.Log("collision white player");
             anim.SetBool("Character_nearby", true);
+            audioSource.PlayOneShot(OpenDoor);
         }
     }
 
@@ -30,6 +33,7 @@ public class DoorTrigger : MonoBehaviour
         {
             Debug.Log("Player exit");
             anim.SetBool("Character_nearby", false);
+            audioSource.PlayOneShot(CloseDoor);
         }
     }
 }
