@@ -275,18 +275,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1472463453192436378, guid: 110db861c46ef304b93bfddc519e491d, type: 3}
-      propertyPath: m_text
-      value: "D\xE9marrage des moteurs"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1472463453192436378, guid: 110db861c46ef304b93bfddc519e491d, type: 3}
-      propertyPath: m_isRightToLeft
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2371978579222156600, guid: 110db861c46ef304b93bfddc519e491d, type: 3}
-      propertyPath: m_Name
-      value: "D\xE9marrage des moteurs"
-      objectReference: {fileID: 0}
     - target: {fileID: 2551193541393889956, guid: 110db861c46ef304b93bfddc519e491d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 575.4961
