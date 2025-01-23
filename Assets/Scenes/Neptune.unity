@@ -453,55 +453,55 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10000
+      value: 17702.639
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10000
+      value: 17702.639
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10000
+      value: 17702.639
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -45.500023
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0000050900067
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.000014435237
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 0.632496
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.39525568
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.3304776
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.5783652
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -61.917
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 4.771
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -87.744
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: be09a10e329eb5e4b9f67065e0ef6c36, type: 3}
       propertyPath: m_Name
@@ -538,7 +538,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045793695}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -546,7 +546,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -61, y: -221}
+  m_AnchoredPosition: {x: -61, y: -186.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2045793697
@@ -573,8 +573,7 @@ MonoBehaviour:
     1.14 g\n\r\nComposition atmospherique\_: hydrogene et helium\n\r\nComposition\_:
     Gazeuse\n\r\nDuree de r\xE9volution\_: 165 ans\r\n\nDuree de jour\_: 16h 6\n\r\nTemperature\_:
     -201 C\r\n\nDistance du Soleil\_: 4,495\_milliards\_km\_; 30 UA\n\r\nSatellites\_:
-    Triton, Thalassa, Hippocampe, Neredie, \nGalatee, Despina, Neso, Naiade, Halimede,
-    \nPsamathee, Laomedie, Protee, Larissa, Sao\n\r\n"
+    Triton, Thalassa, Hippocampe, Neredie...\n\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
