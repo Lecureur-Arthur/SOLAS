@@ -20348,6 +20348,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3068274053418545509}
+  - component: {fileID: 3417731418588303921}
+  - component: {fileID: 8420007149292406787}
   m_Layer: 0
   m_Name: Camera Offset
   m_TagString: Untagged
@@ -20377,6 +20379,124 @@ Transform:
   - {fileID: 350767850049785356}
   m_Father: {fileID: 8634872095923399700}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &3417731418588303921
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004517270234494976}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &8420007149292406787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004517270234494976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ca165fed3d34f48ad2d5bff532de7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroide: {fileID: 8300000, guid: cc27bd3fafdef2a4f9b62d6f21d20af7, type: 3}
+  mercure: {fileID: 8300000, guid: 1824c8d0298c9ca44b6da324175e863b, type: 3}
+  venus: {fileID: 8300000, guid: 84b67081d7a5aac408f8cfc1ff0eb78b, type: 3}
+  Terre: {fileID: 8300000, guid: bfc1ddea71fd54e46acabe8e3c419274, type: 3}
+  Lune: {fileID: 8300000, guid: a3613b34051475d469e449005d9f997d, type: 3}
+  Mars: {fileID: 8300000, guid: 8173b0504ada8bf4a9f686aad56f6bcc, type: 3}
+  Jupiter: {fileID: 8300000, guid: 134452fb3e9237e43bc9995960eb7554, type: 3}
+  Saturne: {fileID: 8300000, guid: cd85a32cc9f20044890877766fa92c66, type: 3}
+  Uranus: {fileID: 8300000, guid: 46d853322d5ed3d41855b29185125c0d, type: 3}
+  Neptune: {fileID: 8300000, guid: 2130fe93d35510c46a232e366bf4ae8c, type: 3}
 --- !u!1 &2012884229402986045
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class Keyboard : MonoBehaviour
 
     public enum Scenes
     {
-        Asteroide,
+        asteroide,
         Mercure,
         Venus,
         Terre,
@@ -22,13 +22,35 @@ public class Keyboard : MonoBehaviour
 
     public Scenes SceneToLoad;
 
+    private string sceneName;
+
+    void Start()
+    {
+        // Récupère le nom de la scène actuelle
+        sceneName = SceneManager.GetActiveScene().name;
+
+        // Tente de convertir le nom de la scène actuelle en une valeur de l'énumération Scenes
+        if (System.Enum.TryParse(sceneName, out Scenes currentScene))
+        {
+            SceneToLoad = currentScene; // Assigne la valeur de l'énumération à SceneToLoad
+            Debug.Log("SceneToLoad a été définie à : " + SceneToLoad);
+        }
+        else
+        {
+            Debug.LogWarning("La scène actuelle n'existe pas dans l'énumération Scenes !");
+        }
+
+        Debug.Log("Nom de la scène actuelle : " + sceneName);
+    }
+
+
     public void InsertChar(string c)
     {        
         switch (c)
         {
             case "0":
                 inputField.text = "Ceinture d'astéroïde";
-                SceneToLoad = Scenes.Asteroide;
+                SceneToLoad = Scenes.asteroide;
                 break;
             case "1":
                 inputField.text = "Mercure";
@@ -69,10 +91,19 @@ public class Keyboard : MonoBehaviour
         }
     }
 
+    
+
+    
+
     public void EnterCode()
     {
-        //Debug.Log("Button press and try to Load scene name : " + SceneToLoad.ToString());
-        SceneManager.LoadScene(SceneToLoad.ToString());
+        // Appelle ToString() correctement avec des parenthèses
+        if (sceneName != SceneToLoad.ToString())
+        {
+            Debug.Log("Les scènes sont différentes !");
+            // Ajouter le code pour charger la nouvelle scène ici
+            SceneManager.LoadScene(SceneToLoad.ToString());
+        }
     }
 
     public void ResetKeypad()
