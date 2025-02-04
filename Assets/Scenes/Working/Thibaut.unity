@@ -343,6 +343,7 @@ GameObject:
   - component: {fileID: 63770368}
   - component: {fileID: 63770372}
   - component: {fileID: 63770371}
+  - component: {fileID: 63770373}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -359,8 +360,8 @@ Transform:
   m_GameObject: {fileID: 63770367}
   serializedVersion: 2
   m_LocalRotation: {x: 0.6775637, y: -0, z: -0, w: 0.7354641}
-  m_LocalPosition: {x: 577.02997, y: -22.7, z: 29.599998}
-  m_LocalScale: {x: 0.0743829, y: 8.1296015, z: 0.29612687}
+  m_LocalPosition: {x: 577.02997, y: -50, z: -303.4}
+  m_LocalScale: {x: 0.0743829, y: -152.39804, z: 0.29612687}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -385,7 +386,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 16d965aca1b36114a96e3bb88c0b8007, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -415,6 +416,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63770367}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!122 &63770373
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63770367}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 503316479
+  m_Size: 37.2
 --- !u!1 &75597537
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,15 +909,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToBeSpawned: {fileID: 63770367}
-  numberOfItems: 100
+  numberOfItems: 800
   parent: {fileID: 525893273}
-  spawnCenter: {x: 565, y: 2.5, z: 110}
-  spawnMinX: -10
-  spawnMaxX: 10
-  spawnMinY: -10
-  spawnMaxY: 10
-  spawnMinZ: 0
-  spawnMaxZ: 0
+  spawnCenter: {x: 565, y: 2.5, z: 100}
+  baseRadius: 85
+  coneHeight: 100
+  globalRotationX: 90
+  spinSpeed: 1000
 --- !u!4 &765468175
 Transform:
   m_ObjectHideFlags: 0
@@ -914,7 +925,7 @@ Transform:
   m_GameObject: {fileID: 765468173}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 565, y: 2.5, z: 100}
+  m_LocalPosition: {x: 555.63, y: 1.82, z: 100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1591,6 +1602,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8579146048906568600, guid: 5214b18eb5694c34a841b58462e6c54b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.627
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1650,6 +1665,10 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_Name
       value: XR Device Simulator
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2192,6 +2211,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5086311311263287593, guid: 110db861c46ef304b93bfddc519e491d, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 765468174}
     - target: {fileID: 6337089300332408089, guid: 110db861c46ef304b93bfddc519e491d, type: 3}
       propertyPath: m_Name
       value: SpaceshipAndMissingItems
