@@ -687,7 +687,7 @@
                     "name": "Select",
                     "type": "Button",
                     "id": "33754c03-48ec-46ef-9bc6-22ed6bfdd8e8",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -2624,14 +2624,14 @@
             ]
         },
         {
-            "name": "VR Controls",
-            "id": "b02bca6d-ccec-4d71-9f28-76f7749494ac",
+            "name": "GameDefinedActions",
+            "id": "89a72cec-332c-44d4-8c54-088c548020fe",
             "actions": [
                 {
-                    "name": "PressJoystickLeft",
+                    "name": "MenuButton",
                     "type": "Button",
-                    "id": "693f2b6a-3d6e-479f-944e-caab240cf2e6",
-                    "expectedControlType": "Button",
+                    "id": "3ea72e1c-f2fc-4aa2-8749-be5639bc8ad7",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -2640,12 +2640,12 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "63820b71-aaa9-4999-b225-1080269b9eb0",
-                    "path": "<XRController>{LeftHand}/joystickClicked",
+                    "id": "55e3c514-97cc-4673-8501-b2df80e260be",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "PressJoystickLeft",
+                    "action": "MenuButton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
