@@ -361,7 +361,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.6775637, y: -0, z: -0, w: 0.7354641}
   m_LocalPosition: {x: 577.02997, y: -50, z: -303.4}
-  m_LocalScale: {x: 0.0743829, y: -152.39804, z: 0.29612687}
+  m_LocalScale: {x: -0.061749794, y: -152.39804, z: 0.29612687}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -427,7 +427,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 503316479
-  m_Size: 37.2
+  m_Size: 0
 --- !u!1 &75597537
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,7 +912,7 @@ MonoBehaviour:
   numberOfItems: 800
   parent: {fileID: 525893273}
   spawnCenter: {x: 565, y: 2.5, z: 100}
-  baseRadius: 85
+  baseRadius: 50
   coneHeight: 100
   globalRotationX: 90
   spinSpeed: 1000
