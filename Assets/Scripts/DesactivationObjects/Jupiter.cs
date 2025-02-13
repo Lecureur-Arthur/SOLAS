@@ -1,0 +1,38 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Jupiter : MonoBehaviour
+{
+    public GameObject motor2;
+    public GameObject salleJardin;
+    public GameObject detailsSerre;
+    public GameObject salleJardin2;
+    public GameObject parabole;
+    public GameObject cuisine;
+    public GameObject cryo;
+    public GameObject capsule;
+    public GameObject panneauxSolaire;
+    public GameObject battery;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        salleJardin.SetActive(false);
+        salleJardin2.SetActive(false);
+        detailsSerre.SetActive(false);
+        parabole.SetActive(false);
+        cuisine.SetActive(false);
+        cryo.SetActive(false);
+        capsule.SetActive(false);
+        panneauxSolaire.SetActive(false);  
+        battery.SetActive(false);
+        motor2.SetActive(false);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}

@@ -157,11 +157,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8364503107866783046, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
   m_PrefabInstance: {fileID: 137083364}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &72627340 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4618374780728057536, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
-  m_PrefabInstance: {fileID: 137083364}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &72627341 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6585067796150905144, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
@@ -339,8 +334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8c9e5b754d633428474f97366aa465, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Battery1: {fileID: 0}
-  Battery2: {fileID: 0}
+  battery: {fileID: 0}
 --- !u!114 &137083368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,16 +347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee72340ab800f994187d8110624a47ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  salle_jardin: {fileID: 72627338}
-  DetailsSerre: {fileID: 72627333}
-  salle_jardin_2: {fileID: 72627337}
-  Battery: {fileID: 137083365}
-  Citerne_complete: {fileID: 72627340}
-  Parabole: {fileID: 72627341}
-  cuisine: {fileID: 72627336}
-  cryo: {fileID: 72627335}
-  capsules: {fileID: 72627339}
-  panneauxSolaires: {fileID: 72627334}
 --- !u!114 &137083369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1720,7 +1704,8 @@ GameObject:
   - component: {fileID: 1013484896}
   - component: {fileID: 1013484895}
   - component: {fileID: 1013484894}
-  - component: {fileID: 1013484893}
+  - component: {fileID: 1013484899}
+  - component: {fileID: 1013484898}
   m_Layer: 0
   m_Name: Battery1
   m_TagString: Untagged
@@ -1728,20 +1713,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1013484893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1013484892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d8c9e5b754d633428474f97366aa465, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Battery1: {fileID: 0}
-  Battery2: {fileID: 0}
 --- !u!114 &1013484894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1940,8 +1911,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.3139024, y: 5.5909095, z: 2.8149266}
-  m_Center: {x: 0.15693316, y: -0.090737544, z: 0.22636129}
+  m_Size: {x: 1.5705575, y: 5.3764443, z: 2.8149266}
+  m_Center: {x: 0.02860587, y: 0.016498003, z: 0.22636136}
 --- !u!4 &1013484897
 Transform:
   m_ObjectHideFlags: 0
@@ -1951,7 +1922,7 @@ Transform:
   m_GameObject: {fileID: 1013484892}
   serializedVersion: 2
   m_LocalRotation: {x: 0.32930553, y: 0.877804, z: -0.13181543, w: 0.3219362}
-  m_LocalPosition: {x: 93.17233, y: 6.9107666, z: -909.49}
+  m_LocalPosition: {x: 93.17233, y: 6.9107666, z: -881.09}
   m_LocalScale: {x: 0.44342998, y: 0.44342998, z: 0.44342998}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1960,6 +1931,41 @@ Transform:
   - {fileID: 749745610}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 26.324, y: 147.742, z: 33.39}
+--- !u!114 &1013484898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013484892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f8fa34596cd4ca46b1709a4a412ea76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motor2: {fileID: 1883392417}
+  salleJardin: {fileID: 72627338}
+  detailsSerre: {fileID: 72627333}
+  salleJardin2: {fileID: 72627337}
+  parabole: {fileID: 72627341}
+  cuisine: {fileID: 72627336}
+  cryo: {fileID: 72627335}
+  capsule: {fileID: 72627339}
+  panneauxSolaire: {fileID: 72627334}
+  battery: {fileID: 137083365}
+--- !u!114 &1013484899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013484892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d8c9e5b754d633428474f97366aa465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battery: {fileID: 137083365}
 --- !u!1 &1347934311
 GameObject:
   m_ObjectHideFlags: 0
@@ -2929,6 +2935,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1883392417 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1325171299937837885, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 137083364}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1916293524
 GameObject:
   m_ObjectHideFlags: 0

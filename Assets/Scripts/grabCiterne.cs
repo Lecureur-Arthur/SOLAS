@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class grabBattery : MonoBehaviour
+public class grabCiterne : MonoBehaviour
 {
     
     private XRGrabInteractable grabInteractable;
-    public GameObject battery;
+    public GameObject citerne;
 
     // Start is called before the first frame update
     void Start()
@@ -18,9 +18,9 @@ public class grabBattery : MonoBehaviour
 
     private void OnGrab(SelectEnterEventArgs args)
     {
-        Debug.Log("Battery grab");
+        Debug.Log("Citerne grab");
         gameObject.SetActive(false);
-        battery.SetActive(true);
+        gameObject.SetActive(true);
     }
 
     // Update is called once per frame

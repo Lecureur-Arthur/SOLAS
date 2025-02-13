@@ -1,0 +1,42 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class asteroides : MonoBehaviour
+{
+    public GameObject motor2;
+    public GameObject salleJardin;
+    public GameObject detailsSerre;
+    public GameObject salleJardin2;
+    public GameObject parabole;
+    public GameObject cuisine;
+    public GameObject cryo;
+    public GameObject capsule;
+    public GameObject panneauxSolaire;
+    public GameObject motor;
+    public GameObject battery;
+    public GameObject citerne;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        salleJardin.SetActive(false);
+        salleJardin2.SetActive(false);
+        detailsSerre.SetActive(false);
+        parabole.SetActive(false);
+        cuisine.SetActive(false);
+        cryo.SetActive(false);
+        capsule.SetActive(false);
+        panneauxSolaire.SetActive(false);  
+        motor.SetActive(false);
+        battery.SetActive(false);
+        citerne.SetActive(false);
+        motor2.SetActive(false);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
