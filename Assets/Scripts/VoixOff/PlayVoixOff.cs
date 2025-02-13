@@ -16,6 +16,8 @@ public class PlayVoixOff : MonoBehaviour
     public AudioClip Uranus;
     public AudioClip Neptune;
 
+    public AudioClip woosh;
+
     private AudioSource audioSource;
 
     void Start()
@@ -30,6 +32,15 @@ public class PlayVoixOff : MonoBehaviour
 
     void PlayAudioForScene(string sceneName)
     {
+        StartCoroutine(PlaySoundStartChargement(sceneName));
+    }
+
+    IEnumerator PlaySoundStartChargement(string sceneName)
+    {
+
+        audioSource.PlayOneShot(woosh);
+
+        yield return new WaitForSeconds(2);
         // Utiliser un switch pour déterminer quel clip jouer en fonction de la scène
         AudioClip clipToPlay = null;
 
@@ -65,9 +76,6 @@ public class PlayVoixOff : MonoBehaviour
             case "Neptune":
                 clipToPlay = Neptune;
                 break;
-            default:
-                Debug.LogWarning("Aucun clip audio trouvé pour la scène : " + sceneName);
-                return;
         }
 
         if (clipToPlay != null)

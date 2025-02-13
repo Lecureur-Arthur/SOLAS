@@ -2,7 +2,9 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets;
-
+using System.Collections;
+using UnityEditor;
+using UnityEngine.UIElements;
 
 public class Keyboard : MonoBehaviour
 {
@@ -24,16 +26,24 @@ public class Keyboard : MonoBehaviour
 
     public Scenes SceneToLoad;
 
+    public GameObject button;
+    public AudioClip spacewoosh;
+    public AudioSource audioSource;
+    public GameObject locomotionSystem;
+
     private string sceneName;
 
 
-    public Transform spawnParent; // Where to spawn the cubes (e.g., an empty GameObject in the scene)
-    [SerializeField] private ChangementScene spawn;
+    public Transform spawnParent;
+    [SerializeField] private ChangementScene spawn; 
     public GameObject Cubes;
 
 
     void Start()
     {
+        button.SetActive(false);
+        locomotionSystem = GameObject.Find("Locomotion System");
+
         // Récupère le nom de la scène actuelle
         sceneName = SceneManager.GetActiveScene().name;
 
@@ -49,11 +59,14 @@ public class Keyboard : MonoBehaviour
         }
 
         Debug.Log("Nom de la scène actuelle : " + sceneName);
+
+        audioSource = GetComponent<AudioSource>(); 
     }
 
 
     public void InsertChar(string c)
-    {        
+    {
+        button.SetActive(true);
         switch (c)
         {
             case "0":
@@ -134,10 +147,24 @@ public class Keyboard : MonoBehaviour
         {
             Debug.Log("Les scènes sont différentes !");
             // Ajouter le code pour charger la nouvelle scène ici
-            //SceneManager.LoadScene(SceneToLoad.ToString());
-            spawn.SpawnObject();
-            //Instantiate(Cubes, new Vector3(565, 2, 100), Quaternion.identity);
+            button.SetActive(false);
+            locomotionSystem.SetActive(false);
+            StartCoroutine(LatenceSceneChargement());
+
         }
+    }
+
+
+
+    IEnumerator LatenceSceneChargement()
+    {
+        audioSource.PlayOneShot(spacewoosh);
+        spawn.SpawnObject();
+
+        yield return new WaitForSeconds(6);
+        SceneManager.LoadScene(SceneToLoad.ToString());
+
+
     }
 
 

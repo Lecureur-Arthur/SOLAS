@@ -19,8 +19,6 @@ public class ChangementScene : MonoBehaviour
         // Create a new empty GameObject to rotate all spawned objects
         coneParent = new GameObject("ConeParent").transform;
         coneParent.position = spawnCenter;
-
-        SpawnObject();
     }
 
     void Update()
