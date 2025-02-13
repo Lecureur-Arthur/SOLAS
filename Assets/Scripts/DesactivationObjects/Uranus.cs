@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class desactivatonObjetsMars : MonoBehaviour
+public class Uranus : MonoBehaviour
 {
+    public GameObject capsule;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        capsule.SetActive(false);
     }
 
     // Update is called once per frame
