@@ -161,7 +161,7 @@ public class Keyboard : MonoBehaviour
         audioSource.PlayOneShot(spacewoosh);
         spawn.SpawnObject();
 
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(600);
         SceneManager.LoadScene(SceneToLoad.ToString());
 
 
