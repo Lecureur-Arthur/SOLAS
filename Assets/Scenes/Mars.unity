@@ -1591,7 +1591,7 @@ MonoBehaviour:
   cuisine: {fileID: 1975566809}
   cryo: {fileID: 1975566808}
   capsule: {fileID: 1975566812}
-  panneauxSolaire: {fileID: 645107164}
+  panneauxSolaires: {fileID: 645107164}
   battery: {fileID: 1975566813}
   citerne: {fileID: 1975566814}
   robotCuisto: {fileID: 956644668}

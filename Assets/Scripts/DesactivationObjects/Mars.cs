@@ -12,7 +12,7 @@ public class Mars : MonoBehaviour
     public GameObject cuisine;
     public GameObject cryo;
     public GameObject capsule;
-    public GameObject panneauxSolaire;
+    public GameObject panneauxSolaires;
     public GameObject battery;
     public GameObject citerne;
     public GameObject robotCuisto;
@@ -30,7 +30,7 @@ public class Mars : MonoBehaviour
         cuisine.SetActive(false);
         cryo.SetActive(false);
         capsule.SetActive(false);
-        panneauxSolaire.SetActive(false);  
+        panneauxSolaires.SetActive(false);  
         battery.SetActive(false);
         citerne.SetActive(false);
         motor2.SetActive(false);

@@ -1586,6 +1586,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 494976, guid: fa49e460baf435b4780da7196c2ab473, type: 3}
   m_PrefabInstance: {fileID: 374745268}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &292566989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1575436181997838363, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 5794485201809051637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &293073307
 GameObject:
   m_ObjectHideFlags: 0
@@ -3432,11 +3437,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04d0bf4be9447154188d86f6e3b8dce9, type: 3}
---- !u!1 &460661143 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6445287078960454761, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
-  m_PrefabInstance: {fileID: 5794485201809051637}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &464513711 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469044, guid: 04d0bf4be9447154188d86f6e3b8dce9, type: 3}
@@ -4741,6 +4741,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 494976, guid: fa49e460baf435b4780da7196c2ab473, type: 3}
   m_PrefabInstance: {fileID: 746586696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &628460751 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8719832681343275828, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 5794485201809051637}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &631363119 stripped
 Transform:
@@ -7745,6 +7750,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
   m_PrefabInstance: {fileID: 1191118512}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1124481013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 575172830198990528, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 5794485201809051637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1126941146 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 494976, guid: fa49e460baf435b4780da7196c2ab473, type: 3}
@@ -8254,10 +8264,14 @@ MonoBehaviour:
   cuisine: {fileID: 1038147344}
   cryo: {fileID: 1211915506}
   capsule: {fileID: 2012890786}
-  panneauxSolaire: {fileID: 460661143}
+  panneauxSolaires: {fileID: 1124481013}
   motor: {fileID: 172805928}
   battery: {fileID: 1949467187}
   citerne: {fileID: 1903628075}
+  robotCuisto: {fileID: 1817465096}
+  cube1PanneauxSolaires: {fileID: 628460751}
+  cube2PanneauxSolaires: {fileID: 292566989}
+  cube3PanneauxSolaires: {fileID: 1660934994}
 --- !u!1001 &1173950565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10883,6 +10897,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 494976, guid: fa49e460baf435b4780da7196c2ab473, type: 3}
   m_PrefabInstance: {fileID: 1705665183}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1660934994 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 607964660992900999, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 5794485201809051637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1661239220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12128,6 +12147,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04d0bf4be9447154188d86f6e3b8dce9, type: 3}
+--- !u!1 &1817465096 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5994711335368348928, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 5794485201809051637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1820056150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
