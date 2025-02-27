@@ -30,6 +30,8 @@ public class Keyboard : MonoBehaviour
     public AudioClip spacewoosh;
     public AudioSource audioSource;
     public GameObject locomotionSystem;
+    public GameObject planet;
+    public GameObject textInfo;
 
     private string sceneName;
 
@@ -159,9 +161,11 @@ public class Keyboard : MonoBehaviour
     IEnumerator LatenceSceneChargement()
     {
         audioSource.PlayOneShot(spacewoosh);
+        planet.SetActive(false);
+        textInfo.SetActive(false);
         spawn.SpawnObject();
 
-        yield return new WaitForSeconds(600);
+        yield return new WaitForSeconds(6);
         SceneManager.LoadScene(SceneToLoad.ToString());
 
 

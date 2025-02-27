@@ -225,7 +225,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77, y: -749}
+  m_AnchoredPosition: {x: -77, y: -748}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313038120
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Venus\_:\r\n\nage\_: 4.503 milliards d\u2019ann\xE9e\n\r\ntaille\_: rayon
+  m_text: "Venus\_:\r\n\nage\_: 4.503 milliards d\u2019annee\n\r\ntaille\_: rayon
     6 051,8 km 0.266ua\n\r\nGravite\_: 0,905g\n\r\ncomposition atmospherique\_: 96%
     de dioxyde de carbone (CO2)\n\r\nComposition\_: tellurique\n\r\nduree de revolution:
     224 jours\n\r\nDuree jour\_: 243 jours (revolution sur elle-m\xEAme 1j = 243j)\n\r\nTemperature\_:
@@ -349,6 +349,14 @@ PrefabInstance:
       propertyPath: button
       value: 
       objectReference: {fileID: 1183941338}
+    - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 2108756030}
+    - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: textInfo
+      value: 
+      objectReference: {fileID: 313038118}
     - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: spacewoosh
       value: 
@@ -855,6 +863,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &2108756030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b0a5e153c2b407c409b2f1fce7a214d0, type: 3}
+  m_PrefabInstance: {fileID: 273767714}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2132834064
 GameObject:
   m_ObjectHideFlags: 0
