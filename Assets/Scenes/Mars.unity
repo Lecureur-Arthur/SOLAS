@@ -224,6 +224,11 @@ RectTransform:
   m_AnchoredPosition: {x: 314, y: 323}
   m_SizeDelta: {x: 628, y: 646}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &329713533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8719832681343275828, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 1975566803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &495064069
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,6 +367,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495064069}
   m_CullTransparentMesh: 1
+--- !u!1 &645107164 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 575172830198990528, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 1975566803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &657316291 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5852413465739084254, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
@@ -370,6 +380,16 @@ GameObject:
 --- !u!1 &665852597 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1325171299937837885, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 1975566803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &956644668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5994711335368348928, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 1975566803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &958725660 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1575436181997838363, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
   m_PrefabInstance: {fileID: 1975566803}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1032038192
@@ -579,6 +599,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064108523}
   m_Mesh: {fileID: -7387706064836869012, guid: 551c18c7578d6de499b6c5741ac09304, type: 3}
+--- !u!1 &1085800117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 607964660992900999, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 1975566803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1169848283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,9 +1591,13 @@ MonoBehaviour:
   cuisine: {fileID: 1975566809}
   cryo: {fileID: 1975566808}
   capsule: {fileID: 1975566812}
-  panneauxSolaire: {fileID: 1975566807}
+  panneauxSolaire: {fileID: 645107164}
   battery: {fileID: 1975566813}
   citerne: {fileID: 1975566814}
+  robotCuisto: {fileID: 956644668}
+  cube1PanneauxSolaires: {fileID: 329713533}
+  cube2PanneauxSolaires: {fileID: 958725660}
+  cube3PanneauxSolaires: {fileID: 1085800117}
 --- !u!114 &1863403048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1581,7 +1610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326f7a70bc81e734694f71ccfb26b658, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  citerne: {fileID: 0}
+  citerne: {fileID: 1975566814}
 --- !u!1001 &1975566803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1630,6 +1659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: moteur1
       objectReference: {fileID: 0}
+    - target: {fileID: 8420007149292406787, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: woosh
+      value: 
+      objectReference: {fileID: 8300000, guid: 55547d26dc93ead45bc5d7b3b7010914, type: 3}
     - target: {fileID: 8422566787158154426, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_LocalPosition.x
       value: 123
@@ -1701,11 +1734,6 @@ MonoBehaviour:
 --- !u!1 &1975566806 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2526668505233569711, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
-  m_PrefabInstance: {fileID: 1975566803}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1975566807 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6445287078960454761, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
   m_PrefabInstance: {fileID: 1975566803}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1975566808 stripped
