@@ -2114,6 +2114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Space_Cam
       objectReference: {fileID: 0}
+    - target: {fileID: 8420007149292406787, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: woosh
+      value: 
+      objectReference: {fileID: 8300000, guid: 55547d26dc93ead45bc5d7b3b7010914, type: 3}
     - target: {fileID: 8422566787158154426, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_LocalPosition.x
       value: 347

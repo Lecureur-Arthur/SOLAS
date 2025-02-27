@@ -339,7 +339,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3026454918553318614, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: spawn
@@ -365,6 +365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Space_Cam
       objectReference: {fileID: 0}
+    - target: {fileID: 8420007149292406787, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: woosh
+      value: 
+      objectReference: {fileID: 8300000, guid: 55547d26dc93ead45bc5d7b3b7010914, type: 3}
     - target: {fileID: 8422566787158154426, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_LocalPosition.x
       value: 147
@@ -664,6 +668,10 @@ PrefabInstance:
     - target: {fileID: 7160656610808234647, guid: 1d690cd3e405e3c419ce22974a4c0c22, type: 3}
       propertyPath: m_LocalPosition.z
       value: -86.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643481362444366028, guid: 1d690cd3e405e3c419ce22974a4c0c22, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8192365382454168947, guid: 1d690cd3e405e3c419ce22974a4c0c22, type: 3}
       propertyPath: m_LocalPosition.x
