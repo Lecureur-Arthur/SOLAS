@@ -40,7 +40,7 @@ public class PlayVoixOff : MonoBehaviour
 
         audioSource.PlayOneShot(woosh);
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(0);
         // Utiliser un switch pour déterminer quel clip jouer en fonction de la scène
         AudioClip clipToPlay = null;
 
@@ -80,6 +80,7 @@ public class PlayVoixOff : MonoBehaviour
 
         if (clipToPlay != null)
         {
+            yield return new WaitForSeconds(1);
             audioSource.clip = clipToPlay;
             audioSource.Play();
         }
