@@ -622,6 +622,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2094700745}
     - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 1542541735}
+    - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: textInfo
+      value: 
+      objectReference: {fileID: 1424917835}
+    - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: spacewoosh
       value: 
       objectReference: {fileID: 8300000, guid: 031be9252f746a842bd8eda69ef8f425, type: 3}
@@ -885,6 +893,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5ca029953e15ad45b36ae60513b30cc, type: 3}
+--- !u!1 &1542541735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c5ca029953e15ad45b36ae60513b30cc, type: 3}
+  m_PrefabInstance: {fileID: 1542541734}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2023837886
 GameObject:
   m_ObjectHideFlags: 0

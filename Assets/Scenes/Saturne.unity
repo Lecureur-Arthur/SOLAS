@@ -256,6 +256,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 392894187}
     - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 1007386409}
+    - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: textInfo
+      value: 
+      objectReference: {fileID: 1355612064}
+    - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: spacewoosh
       value: 
       objectReference: {fileID: 8300000, guid: 031be9252f746a842bd8eda69ef8f425, type: 3}
@@ -643,6 +651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SaturnWithTexture
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0106b611c38e9b0419eb87272d9ef9d9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -654,6 +666,11 @@ PrefabInstance:
 --- !u!4 &1007386408 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0106b611c38e9b0419eb87272d9ef9d9, type: 3}
+  m_PrefabInstance: {fileID: 1007386407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1007386409 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0106b611c38e9b0419eb87272d9ef9d9, type: 3}
   m_PrefabInstance: {fileID: 1007386407}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1259427754
