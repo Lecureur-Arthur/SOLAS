@@ -20,7 +20,7 @@ public class grabCiterne : MonoBehaviour
     {
         Debug.Log("Citerne grab");
         gameObject.SetActive(false);
-        gameObject.SetActive(true);
+        citerne.SetActive(true);
     }
 
     // Update is called once per frame
