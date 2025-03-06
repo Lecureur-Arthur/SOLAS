@@ -319,9 +319,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 449886296}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2750815218097846783, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 137083368}
     - targetCorrespondingSourceObject: {fileID: 7158982206965057540, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       insertIndex: -1
       addedObject: {fileID: 137083371}
@@ -343,11 +340,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7158982206965057540, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
   m_PrefabInstance: {fileID: 137083364}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &137083366 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2750815218097846783, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
-  m_PrefabInstance: {fileID: 137083364}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &137083367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,19 +352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8c9e5b754d633428474f97366aa465, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabInteractable: {fileID: 0}
   battery: {fileID: 0}
---- !u!114 &137083368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137083366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee72340ab800f994187d8110624a47ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &137083369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1845,8 +1826,8 @@ GameObject:
   - component: {fileID: 1013484896}
   - component: {fileID: 1013484895}
   - component: {fileID: 1013484894}
-  - component: {fileID: 1013484899}
   - component: {fileID: 1013484898}
+  - component: {fileID: 1013484899}
   m_Layer: 0
   m_Name: Battery1
   m_TagString: Untagged
@@ -2107,10 +2088,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1013484892}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d8c9e5b754d633428474f97366aa465, type: 3}
+  m_Script: {fileID: 11500000, guid: 227b45d245527b24dac54a1775e50437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battery: {fileID: 137083365}
+  objectRetrouve: {fileID: 137083365}
 --- !u!114 &1047579474 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6862601224051776343, guid: 1d690cd3e405e3c419ce22974a4c0c22, type: 3}
@@ -3354,6 +3335,6 @@ SceneRoots:
   - {fileID: 758283831}
   - {fileID: 137083364}
   - {fileID: 237239063}
-  - {fileID: 1013484897}
   - {fileID: 421985619}
   - {fileID: 2009835426}
+  - {fileID: 1013484897}
