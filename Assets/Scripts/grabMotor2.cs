@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class grabObject : MonoBehaviour
+public class grabMotor2 : MonoBehaviour
 {
-
+    
     private XRGrabInteractable grabInteractable;
-    public GameObject objectRetrouve;
+    public GameObject motor2;
 
     // Start is called before the first frame update
     void Start()
@@ -18,13 +18,16 @@ public class grabObject : MonoBehaviour
 
     private void OnGrab(SelectEnterEventArgs args)
     {
-        Debug.Log("object grab");
+        Debug.Log("Motor2 grab");
         gameObject.SetActive(false);
-        objectRetrouve.SetActive(true);
+        motor2.SetActive(true);
     }
+
     // Update is called once per frame
     void Update()
     {
         
     }
+
+
 }

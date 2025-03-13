@@ -291,30 +291,6 @@ RectTransform:
   m_AnchoredPosition: {x: 314, y: 323}
   m_SizeDelta: {x: 628, y: 646}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &562568624 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2750815218097846783, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
-  m_PrefabInstance: {fileID: 1363406133}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &562568625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 562568624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8ef31949b57bad4aaa42b456310695b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  motor2: {fileID: 1363406140}
-  cryo: {fileID: 1363406139}
-  capsule: {fileID: 1363406138}
-  panneauxSolaires: {fileID: 1363406137}
-  cube1PanneauxSolaires: {fileID: 1363406136}
-  cube2PanneauxSolaires: {fileID: 1363406135}
-  cube3PanneauxSolaires: {fileID: 1363406134}
 --- !u!1 &606841800 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9116355718094586515, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
@@ -709,9 +685,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2750815218097846783, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 562568625}
     - targetCorrespondingSourceObject: {fileID: 9116355718094586515, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       insertIndex: -1
       addedObject: {fileID: 606841803}
@@ -1104,13 +1077,48 @@ PrefabInstance:
       addedObject: {fileID: 2101618349}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 40120d519ceeb704faa8686c0f87b3a6, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2101618352}
+      addedObject: {fileID: 2101618348}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 40120d519ceeb704faa8686c0f87b3a6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2101618347}
   m_SourcePrefab: {fileID: 100100000, guid: 40120d519ceeb704faa8686c0f87b3a6, type: 3}
 --- !u!1 &2101618346 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 40120d519ceeb704faa8686c0f87b3a6, type: 3}
   m_PrefabInstance: {fileID: 2101618345}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2101618347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101618346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8ef31949b57bad4aaa42b456310695b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motor2: {fileID: 1363406140}
+  cryo: {fileID: 1363406139}
+  capsule: {fileID: 1363406138}
+  panneauxSolaires: {fileID: 1363406137}
+  cube1PanneauxSolaires: {fileID: 1363406136}
+  cube2PanneauxSolaires: {fileID: 1363406135}
+  cube3PanneauxSolaires: {fileID: 1363406134}
+--- !u!114 &2101618348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101618346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1660a1c50fe214b45bdc60c269324d2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motor2: {fileID: 2101618346}
 --- !u!114 &2101618349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1311,19 +1319,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.3237174, y: 5.8427157, z: 3.0107498}
   m_Center: {x: 0.10152424, y: 0.5332456, z: -0.5008201}
---- !u!114 &2101618352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2101618346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 227b45d245527b24dac54a1775e50437, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectRetrouve: {fileID: 1363406140}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
