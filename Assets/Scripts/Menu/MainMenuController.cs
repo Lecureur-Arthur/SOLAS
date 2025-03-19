@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour
 {
 
-    public GameObject MainMenu;
-    public GameObject AboutMenu
-    ;
+    public GameObject mainSection;
+    public GameObject aboutSection;
+
     void Start()
     {
-        MainMenu.SetActive(true);
-        AboutMenu.SetActive(false);
+        mainSection.SetActive(true);
+        aboutSection.SetActive(false);
     }
 
     public void StartBtn()
@@ -21,23 +21,18 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene("asteroide");
     }
 
-    public void ContinueBtn()
-    {
-        Debug.Log("ContinueBtnClick");
-    }
-
     public void AboutBtn()
     {
         Debug.Log("AboutBtnClick");
-        MainMenu.SetActive(false);
-        AboutMenu.SetActive(true);
+        mainSection.SetActive(false);
+        aboutSection.SetActive(true);
     }
 
     public void BackBtn()
     {
         Debug.Log("BackBtnClick");
-        MainMenu.SetActive(true);
-        AboutMenu.SetActive(false);
+        mainSection.SetActive(true);
+        aboutSection.SetActive(false);
     }
 
     public void QuitBtn()
