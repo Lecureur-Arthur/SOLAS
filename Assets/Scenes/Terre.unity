@@ -3911,9 +3911,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1084597243492006983, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 79194b300be0c4fc6815087408722fcf, type: 2}
+    - target: {fileID: 1207656930379077660, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 79194b300be0c4fc6815087408722fcf, type: 2}
+    - target: {fileID: 1428613585735657491, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701269067203407031, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948165769335790819, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 79194b300be0c4fc6815087408722fcf, type: 2}
+    - target: {fileID: 2508220775891483463, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2855070927743974311, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026454918553318614, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3561012272632856230, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 79194b300be0c4fc6815087408722fcf, type: 2}
+    - target: {fileID: 3581509233073902020, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: spawn
@@ -3935,6 +3971,18 @@ PrefabInstance:
       propertyPath: spacewoosh
       value: 
       objectReference: {fileID: 8300000, guid: 031be9252f746a842bd8eda69ef8f425, type: 3}
+    - target: {fileID: 5151735999457506266, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425267352563738209, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6721417761934094015, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7562898590572267548, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_Name
       value: Space_Cam
