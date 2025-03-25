@@ -23,7 +23,7 @@ public class DoorMoon : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("collision white player");
-            anim.SetBool("Character_nearby", true);
+            anim.SetBool("isOpen", true);
             audioSource.PlayOneShot(OpenDoor);
         }
     }
@@ -33,7 +33,7 @@ public class DoorMoon : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player exit");
-            anim.SetBool("Character_nearby", false);
+            anim.SetBool("isOpen", false);
             audioSource.PlayOneShot(CloseDoor);
         }
     }
