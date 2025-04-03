@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 946272110}
   - component: {fileID: 946272116}
   m_Layer: 0
-  m_Name: Cryo
+  m_Name: SalleCryoGrabVenus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

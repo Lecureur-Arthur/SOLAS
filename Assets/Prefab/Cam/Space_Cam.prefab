@@ -12652,7 +12652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5700881897653886145}
   m_Layer: 0
-  m_Name: moteur2
+  m_Name: MotorCollectMercure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15036,14 +15036,12 @@ Transform:
   - {fileID: 2857440943503369137}
   - {fileID: 1564304761803405078}
   - {fileID: 85396583802646245}
-  - {fileID: 1128173965294999355}
-  - {fileID: 7767153983592944020}
+  - {fileID: 2211983915968397479}
   - {fileID: 2213147395988616831}
   - {fileID: 4936538038655075458}
   - {fileID: 3878082972206771721}
   - {fileID: 6397788602787947946}
   - {fileID: 9029039170750634687}
-  - {fileID: 7784077763712940049}
   - {fileID: 7799606218934929897}
   - {fileID: 6322234385364000607}
   - {fileID: 3072141773526788578}
@@ -20499,6 +20497,7 @@ MonoBehaviour:
   Saturne: {fileID: 8300000, guid: cd85a32cc9f20044890877766fa92c66, type: 3}
   Uranus: {fileID: 8300000, guid: 46d853322d5ed3d41855b29185125c0d, type: 3}
   Neptune: {fileID: 8300000, guid: 2130fe93d35510c46a232e366bf4ae8c, type: 3}
+  woosh: {fileID: 0}
 --- !u!1 &2012884229402986045
 GameObject:
   m_ObjectHideFlags: 0
@@ -21167,7 +21166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7767153983592944020}
   m_Layer: 0
-  m_Name: salle_jardin (2)
+  m_Name: SalleJardin2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21182,7 +21181,7 @@ Transform:
   m_GameObject: {fileID: 2077724586269481179}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -4.840021, y: -3.7, z: 14.577}
+  m_LocalPosition: {x: -4.840021, y: -3.6999981, z: 14.576988}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21199,7 +21198,7 @@ Transform:
   - {fileID: 4455083746492251370}
   - {fileID: 659642833015971656}
   - {fileID: 8190665927865115176}
-  m_Father: {fileID: 8837979307241817344}
+  m_Father: {fileID: 2211983915968397479}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &2079713741638148657
 GameObject:
@@ -22258,8 +22257,17 @@ LineRenderer:
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -22772,7 +22780,7 @@ GameObject:
   - component: {fileID: 209014519890308857}
   - component: {fileID: 2253304130814372426}
   m_Layer: 0
-  m_Name: Cryo
+  m_Name: CryoCollectVenus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26303,7 +26311,7 @@ Transform:
   m_GameObject: {fileID: 2526668505233569711}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.984003, y: 0.99, z: 28.784}
+  m_LocalPosition: {x: -13.984003, y: 0.9900005, z: 28.78402}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26356,7 +26364,7 @@ Transform:
   - {fileID: 2016095148740073293}
   - {fileID: 2123951378590118265}
   - {fileID: 4507665381159070947}
-  m_Father: {fileID: 8837979307241817344}
+  m_Father: {fileID: 2211983915968397479}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2527196110635003055
 GameObject:
@@ -44810,7 +44818,7 @@ GameObject:
   - component: {fileID: 8591504450400331541}
   - component: {fileID: 1898636424462781848}
   m_Layer: 0
-  m_Name: CuisineFinaleV2fbx
+  m_Name: CuisineCollectNeptune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49641,7 +49649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 734200214940458073}
   m_Layer: 0
-  m_Name: "Citerne_compl\xE8te"
+  m_Name: CiterneCollectMars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57396,7 +57404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1144226113563193260}
   m_Layer: 0
-  m_Name: petit_robot
+  m_Name: PetitRobotCollect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63786,7 +63794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8976987520005106462}
   m_Layer: 0
-  m_Name: Robo_cuisto
+  m_Name: RobotCuistoCollect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68259,7 +68267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6397788602787947946}
   m_Layer: 0
-  m_Name: AllSolarPanel
+  m_Name: SolarPanelCollectSaturne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70562,7 +70570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4579556310088388632}
   m_Layer: 0
-  m_Name: Parabole
+  m_Name: ParaboleCollectLune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72128,6 +72136,40 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6701050372566362551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2211983915968397479}
+  m_Layer: 0
+  m_Name: SalleJardinCollectTerre
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2211983915968397479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701050372566362551}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1128173965294999355}
+  - {fileID: 7767153983592944020}
+  - {fileID: 7784077763712940049}
+  m_Father: {fileID: 8837979307241817344}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6707387269070414545
 GameObject:
   m_ObjectHideFlags: 0
@@ -77059,8 +77101,17 @@ LineRenderer:
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -77277,7 +77328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1220950004048774692}
   m_Layer: 0
-  m_Name: Battery
+  m_Name: BatteryCollectJupiter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81373,6 +81424,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8422566787158154426}
+  - component: {fileID: 6056346985281439497}
   m_Layer: 0
   m_Name: Space_Cam
   m_TagString: Untagged
@@ -81397,6 +81449,18 @@ Transform:
   - {fileID: 1202603325327350146}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6056346985281439497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7562898590572267548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8342a104c925055489e98800db37424d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7567578879436864014
 GameObject:
   m_ObjectHideFlags: 0
@@ -88927,7 +88991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1128173965294999355}
   m_Layer: 0
-  m_Name: salle_jardin
+  m_Name: SalleJardin1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88942,7 +89006,7 @@ Transform:
   m_GameObject: {fileID: 8257474737928211009}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -4.840021, y: -3.7, z: 24.682}
+  m_LocalPosition: {x: -4.840021, y: -3.6999981, z: 24.681969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -88961,7 +89025,7 @@ Transform:
   - {fileID: 1660282229563001462}
   - {fileID: 8012325249324063763}
   - {fileID: 8546444656111975578}
-  m_Father: {fileID: 8837979307241817344}
+  m_Father: {fileID: 2211983915968397479}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &8262384277775441654
 GameObject:
@@ -90081,7 +90145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4350895919911569182}
   m_Layer: 0
-  m_Name: CapsuleCryo
+  m_Name: CapsuleCryoCollectUranus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90626,7 +90690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1711942910755351793}
   m_Layer: 0
-  m_Name: moteur1
+  m_Name: MotorCollectAsteroide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98428,6 +98492,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputField: {fileID: 1685320121329998843}
   SceneToLoad: 1
+  button: {fileID: 0}
+  spacewoosh: {fileID: 0}
+  audioSource: {fileID: 0}
+  locomotionSystem: {fileID: 0}
+  planet: {fileID: 0}
+  textInfo: {fileID: 0}
   spawnParent: {fileID: 0}
   spawn: {fileID: 0}
   Cubes: {fileID: 0}

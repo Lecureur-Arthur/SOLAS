@@ -53,14 +53,14 @@ public class Keyboard : MonoBehaviour
         if (System.Enum.TryParse(sceneName, out Scenes currentScene))
         {
             SceneToLoad = currentScene; // Assigne la valeur de l'énumération à SceneToLoad
-            Debug.Log("SceneToLoad a été définie à : " + SceneToLoad);
+            //Debug.Log("SceneToLoad a été définie à : " + SceneToLoad);
         }
         else
         {
             Debug.LogWarning("La scène actuelle n'existe pas dans l'énumération Scenes !");
         }
 
-        Debug.Log("Nom de la scène actuelle : " + sceneName);
+        //Debug.Log("Nom de la scène actuelle : " + sceneName);
 
         audioSource = GetComponent<AudioSource>(); 
     }

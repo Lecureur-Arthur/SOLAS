@@ -4623,7 +4623,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974590528}
   m_Layer: 0
-  m_Name: CapsuleCryo
+  m_Name: CapsuleCryoGrabUranus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

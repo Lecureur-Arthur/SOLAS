@@ -15,13 +15,13 @@ public class DoorTrigger : MonoBehaviour
     {
         anim = GetComponentInParent<Animator>();
         audioSource = GetComponent<AudioSource>();
-        Debug.Log("Start DoorTrigger");
+        //Debug.Log("Start DoorTrigger");
     }
 
     void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player")) {
-            Debug.Log("collision white player");
+            //Debug.Log("collision white player");
             anim.SetBool("Character_nearby", true);
             audioSource.PlayOneShot(OpenDoor);
         }
@@ -31,7 +31,7 @@ public class DoorTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player exit");
+            //Debug.Log("Player exit");
             anim.SetBool("Character_nearby", false);
             audioSource.PlayOneShot(CloseDoor);
         }

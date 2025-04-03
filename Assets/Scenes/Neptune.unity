@@ -994,7 +994,7 @@ GameObject:
   - component: {fileID: 992997652}
   - component: {fileID: 992997657}
   m_Layer: 0
-  m_Name: CuisineFinaleV2fbx
+  m_Name: CuisineGrabNeptune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

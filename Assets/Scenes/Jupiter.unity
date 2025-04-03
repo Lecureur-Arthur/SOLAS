@@ -1901,7 +1901,7 @@ GameObject:
   - component: {fileID: 1013484898}
   - component: {fileID: 1013484899}
   m_Layer: 0
-  m_Name: Battery1
+  m_Name: BatteryGrabJupiter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

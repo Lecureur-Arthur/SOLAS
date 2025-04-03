@@ -1346,7 +1346,7 @@ GameObject:
   - component: {fileID: 1863403047}
   - component: {fileID: 1863403048}
   m_Layer: 0
-  m_Name: "Citerne_compl\xE8te"
+  m_Name: CiterneGrabMars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

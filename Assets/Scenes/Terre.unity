@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 179655896}
   - component: {fileID: 179655901}
   m_Layer: 0
-  m_Name: salle_jardin (2)
+  m_Name: SalleJardin2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -537,7 +537,7 @@ Transform:
   m_GameObject: {fileID: 179655895}
   serializedVersion: 2
   m_LocalRotation: {x: 0.20787871, y: 0.7232082, z: 0.24609731, w: -0.6108949}
-  m_LocalPosition: {x: 57.28, y: 44.6, z: -607.24}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -554,7 +554,7 @@ Transform:
   - {fileID: 1772367966}
   - {fileID: 819874380}
   - {fileID: 2120935549}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1281905830}
   m_LocalEulerAnglesHint: {x: -37.585, y: 260.376, z: 0}
 --- !u!114 &179655901
 MonoBehaviour:
@@ -2070,7 +2070,7 @@ GameObject:
   - component: {fileID: 946362339}
   - component: {fileID: 946362344}
   m_Layer: 0
-  m_Name: salle_jardin
+  m_Name: SalleJardin1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2285,7 +2285,7 @@ Transform:
   m_GameObject: {fileID: 946362338}
   serializedVersion: 2
   m_LocalRotation: {x: -0.050154187, y: 0.7708959, z: -0.024928706, w: -0.634494}
-  m_LocalPosition: {x: 48.46, y: 35.58, z: -605.89}
+  m_LocalPosition: {x: -8.82, y: -9.019997, z: 1.3499756}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2304,7 +2304,7 @@ Transform:
   - {fileID: 1429600503}
   - {fileID: 1808379905}
   - {fileID: 1306972937}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1281905830}
   m_LocalEulerAnglesHint: {x: 5.859, y: 258.778, z: -2.633}
 --- !u!114 &946362344
 MonoBehaviour:
@@ -2765,6 +2765,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258425877}
   m_Mesh: {fileID: 2212009239438826721, guid: 82ea0bf5197e67e4bb0273245042393b, type: 3}
+--- !u!1 &1281905829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1281905830}
+  m_Layer: 0
+  m_Name: SalleJardinGrabTerre
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1281905830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281905829}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 57.28, y: 44.6, z: -607.24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 946362343}
+  - {fileID: 179655900}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1283344264
 GameObject:
   m_ObjectHideFlags: 0
@@ -4944,5 +4977,4 @@ SceneRoots:
   - {fileID: 1700332566}
   - {fileID: 1394936489}
   - {fileID: 1846070859}
-  - {fileID: 946362343}
-  - {fileID: 179655900}
+  - {fileID: 1281905830}
