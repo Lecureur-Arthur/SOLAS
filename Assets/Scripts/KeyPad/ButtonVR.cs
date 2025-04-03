@@ -27,7 +27,7 @@ public class ButtonVR : MonoBehaviour
     {
         if (!isPressed)
         {
-            button.transform.localPosition = new Vector3(0, 0.003f, 0);
+            button.transform.localPosition = new Vector3(0, 0.003f, 0); 
             presser = other.gameObject;
             onPress.Invoke();
             sound.Play();
