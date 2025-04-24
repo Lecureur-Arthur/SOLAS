@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class RetourVaisseau : MonoBehaviour
+public class AtterrissageLune : MonoBehaviour
 {
     private bool isPressed = false;
 
@@ -10,7 +10,7 @@ public class RetourVaisseau : MonoBehaviour
         // Si isPressed est vrai, charger la scène "Lune"
         if (isPressed)
         {
-            SceneManager.LoadScene("Lune");  // Charge la scène "Lune"
+            SceneManager.LoadScene("LuneSurface");  // Charge la scène "Lune"
         }
     }
 
