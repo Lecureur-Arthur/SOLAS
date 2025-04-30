@@ -1,50 +1,65 @@
 # SOLAS - Explorer le système solaire en VR
 
-## Description
-**SOLAS** est un jeu éducatif en réalité virtuelle développé sur Unity (version 2022.3.50f1). Ce projet vise à fournir une expérience immersive pour apprendre des informations sur les planètes de notre système solaire, tout en suivant une histoire captivante.
+**SOLAS** est un jeu éducatif et ludique en réalité virtuelle développé sur Unity. Ce projet vise à fournir une expérience immersive pour apprendre des informations sur les planètes de notre système solaire, tout en suivant une histoire captivante.
 
-## Histoire
-L'aventure commence dans la ceinture d'astéroïdes, où votre vaisseau est gravement endommagé après une collision avec un astéroïde. Votre mission est de récupérer des objets autour des planètes du système solaire pour reconstituer votre vaisseau et poursuivre votre voyage.
+## 📖 Synopsis
+Vous incarnez un pilote spatial dont le vaisseau a été sérieusement endommagé suite à une collision avec un astéroïde dans la ceinture d'astéroides se trouvant en Jupiter et Mars. Pour pouvoir poursuivre votre voyage dans l'espace, vous devez explorer les différentes planètes du système solaire à le recherche de pièces pour la reconstitution de votre vaisseau.
 
-## Objectifs pédagogiques
-- Découvrir des faits scientifiques sur chaque planète.
-- Explorer de manière interactive le système solaire.
-- Combiner apprentissage et divertissement à travers une histoire engageante.
+Chaque planète visitée vous réserve son lot de découvertes scientifiques, quelque interaction avec l'environnement dans chaque orbite de planètes.
 
-## Fonctionnalités principales
-- **Exploration en VR** : Visitez les planètes et interagissez avec l'environnement.
-- **Récupération d'objets** : Trouvez et collectez des pièces nécessaires pour réparer votre vaisseau.
-- **Informations éducatives** : Apprenez des anecdotes et des données scientifiques sur chaque planète.
-- **Histoire immersive** : Suivez une trame narrative qui lie exploration et mission.
+## 🎓 Objectifs pédagogiques
+- Découvrir des informations scientifiques sur les planètes du système solaire.
+- Explorer les planètes de manière interactive et immersive.
+- Combiner jeu et apprentissage grâce à une narration stimulante.
 
-## Prérequis
-- Casque de réalité virtuelle compatible avec Unity VR.
-- Ordinateur avec les spécifications minimales pour exécuter des applications Unity en VR.
+## 🧩 Fonctionnalités principales
+- **Exploration en VR** : Dépacez-vous librement dans votre vaisseau en étant en orbite autour de chaque planète, obsevez leurs caractéristiques et interagissez avec des objets dans un environnement en 3D réaliste.
+- **Récupération d'objets** : Récupérez des objets spécifiques sur chaque planète pour reconstruire votre vaissseau et progresser dans l'aventure.
+- **Contenus éducatifs** : Des fiches d'informations et anecdotes enrichissantes vous accompagnent tout au long de l'exploration.
+- **Histoire immersive** : Une histoire engagente lie chaque étape de l'exploration, donnant un sens à vos découvertes.
 
-## Installation
-1. Clonez ce dépôt sur votre machine locale :
+## 🖥️ Prérequis Thechniques
+- Casque de réalité virtuelle (ex : **Meta Quest 3**).
+- Ordinateur avec les spécifications minimales pour exécuter des applications en VR.
+
+## ⚙️ Installation du projet Unity
+1. **Cloner le projet** :
    ```bash
    git clone <lien_du_repo>
    ```
-2. Ouvrez le projet dans Unity (version 2022.3.50f1).
-3. Configurez le casque VR dans les paramètres Unity.
-4. Lancez le jeu en mode Play pour tester ou générez un build pour une utilisation autonome.
-
-## Contrôles
-- **Joystick gauche** : Déplacement.
-- **Joystick droit** : Orientation de la caméra.
-
-## Auteur
-Projet développé par 4 étudiant en 4A à l'ENSIM dans le cadre d'un projet éducatif.
-- LECUREUR Arthur
-- DE VITTORI Pauline
-- PLATET Thibaut
-- BRUNEL Adélie
+2. **Ouvrir dans Unity** :
+    - Lancer Unity Hub et ouvrir le dossier du projet.
+    - Vérifier que la version utilisée est bien `2022.3.50f1`.
+3. **Configurer la VR** :
+    - Vérifier que le casque VR est bien reconnu par Unity.
+    - Vérifier les paramèters XR dans `Projet Settings > XR Plugin Management`.
+4. **Tester directement dans Unity** :
+    - Cliquez sur `Play` pour tester dans l'éditeur.
 
 
-## Remerciements
-Un grand merci à toutes les ressources et communautés Unity pour leur soutien.
+## 🎮 Contrôles VR
+| Action                     | Contrôle                                   |
+|---------------------------|---------------------------------------------|
+| Se déplacer               | Joystick gauche                            |
+| Regarder autour de soi    | Joystick droit                             |
+| Attraper / Interagir      | Gâchette principale   |
+| Ouvrir le menu / pause    | Bouton menu    |
+
+## 👥 Équipe de Développement
+Projet réalisé dans le cadre d’un projet éducatif à l’**ENSIM**, par quatre étudiants de 4ème année :
+- **DE VITTORI Pauline**
+- **BRUNEL Adélie**
+- **PLATET Thibaut**
+- **LECUREUR Arthur**
 
 ---
 
-Explorez le système solaire, apprenez en vous amusant, et sauvez votre vaisseau dans **SOLAS** !
+## 📸 Captures d’écran
+
+---
+
+## 🪐 Conclusion
+
+**SOLAS** n’est pas seulement un jeu, c’est une **porte d’entrée vers l’univers**. Partez à la découverte des planètes, résolvez des défis, et apprenez tout en vous amusant à bord de votre vaisseau spatial.
+
+**Plongez dans l’espace. Explorez. Apprenez. Réparez.**
