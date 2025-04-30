@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class Uranus : MonoBehaviour
 {
-    public GameObject capsule;
+    public GameObject capsule1;
+    public GameObject capsule2;
+    public GameObject capsule3;
+    public GameObject capsule4;
 
     // Start is called before the first frame update
     void Start()
     {
-        capsule.SetActive(false);
+        capsule1.SetActive(false);
+        capsule2.SetActive(false);
+        capsule3.SetActive(false);
+        capsule4.SetActive(false);
     }
 
     // Update is called once per frame

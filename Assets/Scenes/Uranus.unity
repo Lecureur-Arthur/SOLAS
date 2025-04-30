@@ -1071,11 +1071,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2750815218097846783, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
   m_PrefabInstance: {fileID: 469981443}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &469981448 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8364503107866783046, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
-  m_PrefabInstance: {fileID: 469981443}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &469981449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1088,7 +1083,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bcd42c2a0a9f7848843f79dbfaa66a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  capsule: {fileID: 469981448}
+  capsule1: {fileID: 773151169}
+  capsule2: {fileID: 951329753}
+  capsule3: {fileID: 1350553608}
+  capsule4: {fileID: 643786958}
 --- !u!1 &535295032
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,6 +1419,7 @@ GameObject:
   - component: {fileID: 731440958}
   - component: {fileID: 731440957}
   - component: {fileID: 731440960}
+  - component: {fileID: 731440961}
   m_Layer: 0
   m_Name: Cryo1
   m_TagString: Untagged
@@ -1663,6 +1662,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRetrouve: {fileID: 773151169}
+--- !u!114 &731440961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731440955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a718c138b20419b499c3d92b17e6ff7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tumble: 0.25
 --- !u!1 &773151169 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5034882831494028164, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
@@ -1893,6 +1905,7 @@ GameObject:
   - component: {fileID: 858165958}
   - component: {fileID: 858165957}
   - component: {fileID: 858165960}
+  - component: {fileID: 858165961}
   m_Layer: 0
   m_Name: Cryo3
   m_TagString: Untagged
@@ -2135,6 +2148,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRetrouve: {fileID: 1350553608}
+--- !u!114 &858165961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858165955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a718c138b20419b499c3d92b17e6ff7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tumble: 0.25
 --- !u!1 &951329753 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8050100392732835662, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
@@ -3016,6 +3042,7 @@ GameObject:
   - component: {fileID: 1362430087}
   - component: {fileID: 1362430086}
   - component: {fileID: 1362430089}
+  - component: {fileID: 1362430090}
   m_Layer: 0
   m_Name: Cryo2
   m_TagString: Untagged
@@ -3258,6 +3285,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRetrouve: {fileID: 951329753}
+--- !u!114 &1362430090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362430084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a718c138b20419b499c3d92b17e6ff7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tumble: 0.25
 --- !u!1 &1402411525
 GameObject:
   m_ObjectHideFlags: 0
@@ -4208,6 +4248,7 @@ GameObject:
   - component: {fileID: 1846576659}
   - component: {fileID: 1846576658}
   - component: {fileID: 1846576661}
+  - component: {fileID: 1846576662}
   m_Layer: 0
   m_Name: Cryo4
   m_TagString: Untagged
@@ -4450,6 +4491,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRetrouve: {fileID: 643786958}
+--- !u!114 &1846576662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846576656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a718c138b20419b499c3d92b17e6ff7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tumble: 0.25
 --- !u!1001 &1866924482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4638,7 +4692,7 @@ Transform:
   m_GameObject: {fileID: 1974590527}
   serializedVersion: 2
   m_LocalRotation: {x: -0.082294405, y: 0.34312382, z: -0.015327774, w: 0.9355526}
-  m_LocalPosition: {x: 102, y: 6.19, z: -857.97}
+  m_LocalPosition: {x: 101.93, y: 8.76, z: -858.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

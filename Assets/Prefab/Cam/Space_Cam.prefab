@@ -81424,7 +81424,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8422566787158154426}
-  - component: {fileID: 6056346985281439497}
   m_Layer: 0
   m_Name: Space_Cam
   m_TagString: Untagged
@@ -81449,18 +81448,6 @@ Transform:
   - {fileID: 1202603325327350146}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6056346985281439497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7562898590572267548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8342a104c925055489e98800db37424d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7567578879436864014
 GameObject:
   m_ObjectHideFlags: 0

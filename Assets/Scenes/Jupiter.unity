@@ -424,8 +424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8c9e5b754d633428474f97366aa465, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabInteractable: {fileID: 0}
-  battery: {fileID: 0}
 --- !u!114 &137083369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1900,6 +1898,7 @@ GameObject:
   - component: {fileID: 1013484894}
   - component: {fileID: 1013484898}
   - component: {fileID: 1013484899}
+  - component: {fileID: 1013484900}
   m_Layer: 0
   m_Name: BatteryGrabJupiter
   m_TagString: Untagged
@@ -2164,6 +2163,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRetrouve: {fileID: 137083365}
+--- !u!114 &1013484900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013484892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a718c138b20419b499c3d92b17e6ff7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tumble: 0.25
 --- !u!114 &1047579474 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6862601224051776343, guid: 1d690cd3e405e3c419ce22974a4c0c22, type: 3}
