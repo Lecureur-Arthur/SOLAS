@@ -11,7 +11,7 @@ public class VRRetourMars : MonoBehaviour
     private AudioSource sound;  // Audio pour l'effet de pression
     private bool isPressed = false;  // Indique si le bouton est press�
 
-    public RetourMars retourMars;  // R�f�rence au script RetourVaisseau
+    public RetourVaisseauMars retourMars;  // R�f�rence au script RetourVaisseau
 
     void Start()
     {

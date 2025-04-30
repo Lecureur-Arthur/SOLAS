@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class RetourVaisseau : MonoBehaviour
+public class RetourVaisseauMars : MonoBehaviour
 {
     private bool isPressed = false;
 
