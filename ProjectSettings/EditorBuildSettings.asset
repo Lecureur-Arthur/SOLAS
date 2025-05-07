@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MarsSurface.unity
     guid: f327e49631fe88949bd890ac7b0bd7dd
+  - enabled: 1
+    path: Assets/Scenes/LuneSurface.unity
+    guid: 982f6ca5d2a95a646aa7597b203e6c3f
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2139d8e99ea68e14e8846bf76b45b2c3, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8a5db47374f84144eaa2f093ecb1cf45, type: 2}
