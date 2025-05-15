@@ -57085,9 +57085,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1144226113563193260}
+  - component: {fileID: 753891058151145029}
+  - component: {fileID: 1146268247072688606}
+  - component: {fileID: 6490967114813548699}
   m_Layer: 0
   m_Name: PetitRobotCollect
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57100,8 +57103,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5326911271617522788}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7855079, z: -0, w: 0.6188517}
-  m_LocalPosition: {x: -2.205, y: -1.303, z: 17.807003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.314, y: -1.033, z: 24.011}
   m_LocalScale: {x: 0.38128987, y: 0.38129, z: 0.38128987}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -57132,6 +57135,70 @@ Transform:
   - {fileID: 1386218779012382443}
   m_Father: {fileID: 4407544520034416604}
   m_LocalEulerAnglesHint: {x: 0, y: 103.535, z: 0}
+--- !u!114 &753891058151145029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326911271617522788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aebe8a61ee0d1c49934efc40f33bff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  moveDuration: 55
+--- !u!54 &1146268247072688606
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326911271617522788}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &6490967114813548699
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326911271617522788}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.7310715
+  m_Height: 5.9034657
+  m_Direction: 1
+  m_Center: {x: -0.13934053, y: 3.0984251, z: 0.44757774}
 --- !u!1 &5333753919543483176
 GameObject:
   m_ObjectHideFlags: 0
