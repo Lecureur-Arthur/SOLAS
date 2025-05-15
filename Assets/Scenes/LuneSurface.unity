@@ -14564,6 +14564,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 1479128261981053391, guid: ff113dd052f5f844389d6343a04e12ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.17
+      objectReference: {fileID: 0}
     - target: {fileID: 1506244537820630625, guid: ff113dd052f5f844389d6343a04e12ca, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.12
@@ -14803,6 +14807,14 @@ PrefabInstance:
     - target: {fileID: 6628898059278466688, guid: ff113dd052f5f844389d6343a04e12ca, type: 3}
       propertyPath: m_LocalPosition.y
       value: -4.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6756333362329396642, guid: ff113dd052f5f844389d6343a04e12ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6756333362329396642, guid: ff113dd052f5f844389d6343a04e12ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.26
       objectReference: {fileID: 0}
     - target: {fileID: 7182820959476428254, guid: ff113dd052f5f844389d6343a04e12ca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16682,6 +16694,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2500299253770472292, guid: e22bf08dfdb77fb42b74cffaeb1a9ccf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.023
+      objectReference: {fileID: 0}
     - target: {fileID: 4154443104246568853, guid: e22bf08dfdb77fb42b74cffaeb1a9ccf, type: 3}
       propertyPath: m_Name
       value: Furniture_and_Modules
