@@ -6,38 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Working/Arthur.unity
-    guid: 6667ffca19f46a5479e0c6a3d9e9914b
-  - enabled: 1
-    path: Assets/Scenes/Asteroide.unity
-    guid: c8c5cbb85fca85d4bb311698880389fd
-  - enabled: 1
-    path: Assets/Scenes/Jupiter.unity
-    guid: d3ce1a1bda9fefd4fa040815ce7511fc
-  - enabled: 1
-    path: Assets/Scenes/Lune.unity
-    guid: b6f3bcd5c5ee8304a972d56200ff87f1
-  - enabled: 1
-    path: Assets/Scenes/Mars.unity
-    guid: cd6d598548eae6d4190c2e370492be8f
-  - enabled: 1
-    path: Assets/Scenes/Mercure.unity
-    guid: 3ca7b38ad0fe6564486a7fc632a38cc2
-  - enabled: 1
-    path: Assets/Scenes/Neptune.unity
-    guid: cab6cb28057cc3a45ba2dbaeca6e5135
-  - enabled: 1
-    path: Assets/Scenes/Saturne.unity
-    guid: b7de373864aac5b4d85a50b148998c9b
+    path: Assets/Scenes/TerreSurface.unity
+    guid: 8f939af3f835ce34c8ad35022f0c1575
   - enabled: 1
     path: Assets/Scenes/Terre.unity
     guid: 29c8f72f43b255c4198f8ff10cf4c271
-  - enabled: 1
-    path: Assets/Scenes/Uranus.unity
-    guid: 754b89fba0ea9204f813e1fc49eca2f5
-  - enabled: 1
-    path: Assets/Scenes/Venus.unity
-    guid: 0fd57bcd165a4a34688b0b953d62d877
   m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2139d8e99ea68e14e8846bf76b45b2c3, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8a5db47374f84144eaa2f093ecb1cf45, type: 2}
