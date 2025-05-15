@@ -198,9 +198,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1146268247072688606, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3026454918553318614, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775839492479289497, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775839492479289497, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775839492479289497, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775839492479289497, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: spawn
@@ -222,6 +242,42 @@ PrefabInstance:
       propertyPath: spacewoosh
       value: 
       objectReference: {fileID: 8300000, guid: 031be9252f746a842bd8eda69ef8f425, type: 3}
+    - target: {fileID: 4161751417459402480, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161751417459402480, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161751417459402480, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161751417459402480, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161751417459402480, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1174.9214
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161751417459402480, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6594958593723824477, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_Name
+      value: RobotTextRevert
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133205763916601378, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.051369876
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133205763916601378, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -532.8858
+      objectReference: {fileID: 0}
     - target: {fileID: 7562898590572267548, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_Name
       value: Space_Cam
@@ -269,6 +325,14 @@ PrefabInstance:
     - target: {fileID: 8422566787158154426, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9208917381358101307, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.051369876
+      objectReference: {fileID: 0}
+    - target: {fileID: 9208917381358101307, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -532.8858
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
