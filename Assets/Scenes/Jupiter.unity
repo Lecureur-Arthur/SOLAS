@@ -860,7 +860,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1534,6 +1534,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 618691852}
+  - component: {fileID: 618691853}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1556,6 +1557,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &618691853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618691851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f8fa34596cd4ca46b1709a4a412ea76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motor2: {fileID: 1883392417}
+  salleJardin: {fileID: 72627338}
+  detailsSerre: {fileID: 72627333}
+  salleJardin2: {fileID: 72627337}
+  parabole: {fileID: 72627341}
+  cuisine: {fileID: 72627336}
+  cryo: {fileID: 72627335}
+  capsule: {fileID: 72627339}
+  panneauxSolaires: {fileID: 1678432801}
+  battery: {fileID: 137083365}
+  robotCuisto: {fileID: 618691851}
+  cube1PanneauxSolaires: {fileID: 1514154761}
+  cube2PanneauxSolaires: {fileID: 1926045966}
+  cube3PanneauxSolaires: {fileID: 1766894769}
 --- !u!4 &676039261 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7071151948916930758, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
@@ -1922,7 +1949,6 @@ GameObject:
   - component: {fileID: 1013484896}
   - component: {fileID: 1013484895}
   - component: {fileID: 1013484894}
-  - component: {fileID: 1013484898}
   - component: {fileID: 1013484899}
   - component: {fileID: 1013484900}
   m_Layer: 0
@@ -2150,32 +2176,6 @@ Transform:
   - {fileID: 749745610}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 26.324, y: 147.742, z: 33.39}
---- !u!114 &1013484898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1013484892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f8fa34596cd4ca46b1709a4a412ea76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  motor2: {fileID: 1883392417}
-  salleJardin: {fileID: 72627338}
-  detailsSerre: {fileID: 72627333}
-  salleJardin2: {fileID: 72627337}
-  parabole: {fileID: 72627341}
-  cuisine: {fileID: 72627336}
-  cryo: {fileID: 72627335}
-  capsule: {fileID: 72627339}
-  panneauxSolaires: {fileID: 1678432801}
-  battery: {fileID: 137083365}
-  robotCuisto: {fileID: 618691851}
-  cube1PanneauxSolaires: {fileID: 1514154761}
-  cube2PanneauxSolaires: {fileID: 1926045966}
-  cube3PanneauxSolaires: {fileID: 1766894769}
 --- !u!114 &1013484899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2218,6 +2218,54 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5852413465739084254, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
   m_PrefabInstance: {fileID: 137083364}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1329437004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1329437006}
+  - component: {fileID: 1329437005}
+  m_Layer: 0
+  m_Name: ActiveVoyage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1329437005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329437004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f01c7f0c082594ea8d7b5df51b13a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conditionObjects:
+  - {fileID: 1013484892}
+  toDisable: {fileID: 1065495717}
+  disableIfAnyConditionActive: 1
+--- !u!4 &1329437006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329437004}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.421621, y: -0.14067149, z: -55.183025}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1347934311
 GameObject:
   m_ObjectHideFlags: 0
@@ -3449,3 +3497,4 @@ SceneRoots:
   - {fileID: 2009835426}
   - {fileID: 1013484897}
   - {fileID: 618691852}
+  - {fileID: 1329437006}

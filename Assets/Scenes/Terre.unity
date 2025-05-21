@@ -247,6 +247,58 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aab6c2fda9bab1945a6751ea3ba031d5, type: 3}
   m_PrefabInstance: {fileID: 105849425}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &177859616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 177859618}
+  - component: {fileID: 177859617}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &177859617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177859616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c4ecb6bae8563343b8576250567ca05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motor2: {fileID: 1700332568}
+  salleJardin: {fileID: 1164802210}
+  detailsSerre: {fileID: 1700332573}
+  salleJardin2: {fileID: 1391861128}
+  cuisine: {fileID: 1700332572}
+  cryo: {fileID: 1700332571}
+  capsule: {fileID: 1700332567}
+  panneauxSolaire: {fileID: 1700332570}
+--- !u!4 &177859618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177859616}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 108.53483, y: 36.64562, z: -849.8272}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &212843997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1557,9 +1609,6 @@ PrefabInstance:
       insertIndex: 0
       addedObject: {fileID: 44444630}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2750815218097846783, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1700332574}
     - targetCorrespondingSourceObject: {fileID: 9116355718094586515, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1139573271}
@@ -1572,11 +1621,6 @@ GameObject:
 --- !u!1 &1700332568 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1325171299937837885, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
-  m_PrefabInstance: {fileID: 1700332566}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1700332569 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2750815218097846783, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
   m_PrefabInstance: {fileID: 1700332566}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1700332570 stripped
@@ -1599,26 +1643,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2526668505233569711, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
   m_PrefabInstance: {fileID: 1700332566}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1700332574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700332569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c4ecb6bae8563343b8576250567ca05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  motor2: {fileID: 1700332568}
-  salleJardin: {fileID: 1164802210}
-  detailsSerre: {fileID: 1700332573}
-  salleJardin2: {fileID: 1391861128}
-  cuisine: {fileID: 1700332572}
-  cryo: {fileID: 1700332571}
-  capsule: {fileID: 1700332567}
-  panneauxSolaire: {fileID: 1700332570}
 --- !u!1 &1712080770
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,6 +1796,10 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_Name
       value: XR Device Simulator
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1949,3 +1977,4 @@ SceneRoots:
   - {fileID: 1700332566}
   - {fileID: 1394936489}
   - {fileID: 1846070859}
+  - {fileID: 177859618}
