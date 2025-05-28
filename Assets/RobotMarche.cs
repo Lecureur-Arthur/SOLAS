@@ -11,15 +11,15 @@ public class RobotAspirateur : MonoBehaviour
     private Vector3 moveDirection;
 
     // Référence au Canvas et au Text
-    public GameObject textCanvas;        // Le Canvas contenant le texte
-    public TextMeshProUGUI messageText;  // Le texte qui apparaîtra au-dessus du robot
+    //public GameObject textCanvas;        // Le Canvas contenant le texte
+    //public TextMeshProUGUI messageText;  // Le texte qui apparaîtra au-dessus du robot
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         moveDirection = transform.forward.normalized;
-        textCanvas.SetActive(false);  // Assurez-vous que le texte est initialement caché
+        //textCanvas.SetActive(false);  // Assurez-vous que le texte est initialement caché
     }
 
     void FixedUpdate()
@@ -55,8 +55,8 @@ public class RobotAspirateur : MonoBehaviour
     // Afficher le texte au-dessus du robot
     void ShowMessage(string message)
     {
-        messageText.text = message;           // Définir le texte
-        textCanvas.SetActive(true);           // Afficher le Canvas
+        //messageText.text = message;           // Définir le texte
+        //textCanvas.SetActive(true);           // Afficher le Canvas
         StartCoroutine(HideMessage());       // Masquer le texte après un délai
     }
 
@@ -64,6 +64,6 @@ public class RobotAspirateur : MonoBehaviour
     System.Collections.IEnumerator HideMessage()
     {
         yield return new WaitForSeconds(3f);  // Attendre 3 secondes avant de cacher le texte
-        textCanvas.SetActive(false);          // Cacher le Canvas
+        //textCanvas.SetActive(false);          // Cacher le Canvas
     }
 }

@@ -1432,7 +1432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3629,9 +3629,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 40120d519ceeb704faa8686c0f87b3a6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1169621724}
-    - targetCorrespondingSourceObject: {fileID: -5568371526223589888, guid: 40120d519ceeb704faa8686c0f87b3a6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1800565145}
   m_SourcePrefab: {fileID: 100100000, guid: 40120d519ceeb704faa8686c0f87b3a6, type: 3}
 --- !u!4 &476203339 stripped
 Transform:
@@ -11789,6 +11786,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04d0bf4be9447154188d86f6e3b8dce9, type: 3}
+--- !u!1 &1751022876 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3855578898391534919, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 5794485201809051637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1754556812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12109,24 +12111,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa49e460baf435b4780da7196c2ab473, type: 3}
---- !u!1 &1800565143 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -5568371526223589888, guid: 40120d519ceeb704faa8686c0f87b3a6, type: 3}
-  m_PrefabInstance: {fileID: 474523488}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1800565145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1800565143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a718c138b20419b499c3d92b17e6ff7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tumble: 0.25
 --- !u!4 &1805794115 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
@@ -14030,6 +14014,10 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 0.28233123
       objectReference: {fileID: 0}
+    - target: {fileID: 753891058151145029, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: textCanvas
+      value: 
+      objectReference: {fileID: 1751022876}
     - target: {fileID: 1079161261265330405, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_Volume
       value: 0.1

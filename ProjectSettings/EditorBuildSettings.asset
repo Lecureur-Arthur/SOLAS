@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
-    guid: 8e4608f3b6f6aec42bea4004a4e62abb
+    guid: 79d6f7dfe3fe7fc4f9fb0b8ff60b8d40
   - enabled: 1
     path: Assets/Scenes/asteroide.unity
     guid: c8c5cbb85fca85d4bb311698880389fd
@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Venus.unity
     guid: 0fd57bcd165a4a34688b0b953d62d877
+  - enabled: 1
+    path: Assets/Scenes/Saturne.unity
+    guid: b7de373864aac5b4d85a50b148998c9b
   - enabled: 1
     path: Assets/Scenes/Uranus.unity
     guid: 754b89fba0ea9204f813e1fc49eca2f5
