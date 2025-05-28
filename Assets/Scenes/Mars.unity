@@ -1376,6 +1376,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1937057630 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2971395791326995213, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+  m_PrefabInstance: {fileID: 1975566803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1975566803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1410,11 +1415,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1794414457882138785, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1939665239572401852, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1948165769335790819, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_Material
@@ -1472,6 +1477,10 @@ PrefabInstance:
       propertyPath: spacewoosh
       value: 
       objectReference: {fileID: 8300000, guid: 031be9252f746a842bd8eda69ef8f425, type: 3}
+    - target: {fileID: 3984335234017418703, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: spawnParent
+      value: 
+      objectReference: {fileID: 1937057630}
     - target: {fileID: 4484194579337354133, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -1503,7 +1512,7 @@ PrefabInstance:
     - target: {fileID: 4983533048402351736, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 2100000, guid: 79194b300be0c4fc6815087408722fcf, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 5151735999457506266, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_Enabled
       value: 0
