@@ -47,5 +47,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Neptune.unity
     guid: cab6cb28057cc3a45ba2dbaeca6e5135
+  - enabled: 1
+    path: Assets/Scenes/SceneFinal.unity
+    guid: 9a14f14aea347884099ab30290dbc39a
   m_configObjects:
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8a5db47374f84144eaa2f093ecb1cf45, type: 2}
