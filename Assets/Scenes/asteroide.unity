@@ -14018,6 +14018,10 @@ PrefabInstance:
       propertyPath: textCanvas
       value: 
       objectReference: {fileID: 1751022876}
+    - target: {fileID: 753891058151145029, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
+      propertyPath: messageText
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1079161261265330405, guid: 970e1f64a0b9ec34ba9742dd3363d689, type: 3}
       propertyPath: m_Volume
       value: 0.1

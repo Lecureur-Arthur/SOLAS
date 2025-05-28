@@ -15345,8 +15345,8 @@ MonoBehaviour:
   m_Camera: {fileID: 7251057609766701709}
   m_OriginBaseGameObject: {fileID: 1568820493824260611}
   m_CameraFloorOffsetObject: {fileID: 2004517270234494976}
-  m_RequestedTrackingOriginMode: 0
-  m_CameraYOffset: 1.36144
+  m_RequestedTrackingOriginMode: 1
+  m_CameraYOffset: 1.7
 --- !u!143 &1038226429476631621
 CharacterController:
   m_ObjectHideFlags: 0
@@ -57531,8 +57531,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   moveDuration: 55
-  textCanvas: {fileID: 3855578898391534919}
-  messageText: {fileID: 3775839492479289497}
 --- !u!54 &1146268247072688606
 Rigidbody:
   m_ObjectHideFlags: 0
